@@ -53,6 +53,105 @@
 
             opacity: 0.75;
         }
+
+        footer {
+            color: white;
+            background-color: rgba(0, 0, 0, 0.90);
+        }
+
+        footer div.website-info {
+            margin: 0;
+
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        footer div.website-info ul a {
+            color: white !important;
+        }
+
+        footer p.copyright {
+            color: white;
+            text-align: center;
+            background-color: black;
+
+            margin: 0;
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+
+        div.gray-bg {
+            background-color: #f3f3f3;
+        }
+
+
+        div.faq h2 {
+            font-size: 300%;
+        }
+
+        div.faq h3 {
+            margin-top: 45px;
+        }
+
+        div.faq p {
+            margin-bottom: 20px;
+        }
+
+
+        div.feature {
+            padding: 10px;
+
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        div.feature img {
+            max-width: 120px;
+        }
+
+        div.feature p {
+            margin-top: 15px;
+            font-size: 150%;
+        }
+
+
+        div.social-pages div.social-page {
+            margin-top: 20px;
+            margin-bottom: 50px;
+
+            text-align: center;
+        }
+
+        div.social-pages div.social-page img {
+            max-width: 80px;
+            filter: invert(100%);
+        }
+
+        div.social-pages div.social-page h3 {
+            margin-top: 40px;
+            margin-bottom: 10px;
+        }
+
+
+
+        div.blue-image-bg {
+            background:
+                    linear-gradient(
+                            rgba(15, 20, 170, 0.75),
+                            rgba(15, 20, 170, 0.75)
+                    ),
+
+                    url(./images/main-photo.jpg);
+
+
+            color: white !important;
+        }
+
+
+        div.section-item {
+            padding-top: 90px;
+            padding-bottom: 90px;
+        }
     </style>
 </head>
 
@@ -60,7 +159,9 @@
     <!-- Navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" style="background-color: black !important; padding-top: 20px; padding-bottom: 20px;">
         <div class="container">
-            <a class="navbar-brand" href="#">Awesome website</a>
+            <a class="navbar-brand" href="#">
+                <img src="./icons/performance.png" width="30" height="30" class="d-inline-block align-middle" style="margin-right: 10px;" />
+                Awesome website</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -127,13 +228,242 @@
         </div>
     </div>
 
-    <!-- Features -->
 
-    <!-- Testimonials -->
+    <!-- About -->
+    <div class="about gray-bg section-item">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center" style="margin-bottom: 25px;">21-st century ready!</h2>
+
+                    <p>Et malesuada fames ac turpis egestas. Arcu dictum varius duis at consectetur. Nisl suscipit adipiscing bibendum est ultricies integer quis. Quam lacus suspendisse faucibus interdum posuere. Eu volutpat odio facilisis mauris sit amet massa. Mauris sit amet massa vitae tortor condimentum. Neque sodales ut etiam sit amet nisl purus in. Ac feugiat sed lectus vestibulum. Felis eget velit aliquet sagittis id consectetur purus ut faucibus. Pharetra sit amet aliquam id diam maecenas ultricies mi eget.</p>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-12 col-md-9">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci eu lobortis elementum nibh. Velit egestas dui id ornare arcu odio ut sem nulla. Consequat interdum varius sit amet mattis. In hendrerit gravida rutrum quisque non tellus. Fames ac turpis egestas integer.</p>
+
+                    <p>Risus feugiat in ante metus dictum. Euismod in pellentesque massa placerat duis ultricies lacus. Porta non pulvinar neque laoreet suspendisse interdum consectetur libero id. Eu augue ut lectus arcu bibendum at varius vel.</p>
+
+                    <p style="margin-bottom: 50px;">Et malesuada fames ac turpis egestas. Arcu dictum varius duis at consectetur. Nisl suscipit adipiscing bibendum est ultricies integer quis. Quam lacus suspendisse faucibus interdum posuere. Eu volutpat odio facilisis mauris sit amet massa. Mauris sit amet massa vitae tortor condimentum. Neque sodales ut etiam sit amet nisl purus in. Ac feugiat sed lectus vestibulum. Felis eget velit aliquet sagittis id consectetur purus ut faucibus. Pharetra sit amet aliquam id diam maecenas ultricies mi eget.</p>
+                </div>
+
+                <div class="col-12 col-md-3">
+                    <div style="margin-left: 30px; margin-right: 30px;">
+                        <img src="./icons/digital-marketing.png" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Features -->
+    <div class="features section-item">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center" style="margin-bottom: 15px;">Why we're the best?</h2>
+                    <p class="text-center" style="margin-bottom: 70px;">Check just some of the awesome things you can find at our restaurant.</p>
+                </div>
+            </div>
+
+
+            <div class="row">
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <img src="./icons/profit.png" />
+                        <p>Keep more money</p>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <img src="./icons/analysis.png" />
+                        <p>Great food</p>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <img src="./icons/performance.png" />
+                        <p>#1 in all newspapers</p>
+                    </div>
+                </div>
+
+
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <img src="./icons/job-promotion.png" />
+                        <p>Best waiters</p>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <img src="./icons/achievement.png" />
+                        <p>Best chef, period</p>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <img src="./icons/determination.png" />
+                        <p>Open to ideas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
 
     <!-- FAQ -->
+    <div class="faq gray-bg section-item">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center" style="margin-bottom: 25px;">A list of F.A.Q.</h2>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h3>Do you offer discounts?</h3>
+                    <p>Yes, we do offer discounts. Just make sure you call us before showing up at the restaurant.</p>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <h3>Do you offer X?</h3>
+                    <p>Yes, we do offer discounts. Just make sure you call us before showing up at the restaurant.</p>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <h3>Do you offer Y?</h3>
+                    <p>Yes, we do offer discounts. Just make sure you call us before showing up at the restaurant.</p>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <h3>Do you offer discounts?</h3>
+                    <p>Yes, we do offer discounts. Just make sure you call us before showing up at the restaurant.</p>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <h3>Do you offer discounts?</h3>
+                    <p>Yes, we do offer discounts. Just make sure you call us before showing up at the restaurant.</p>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <h3>Do you offer X?</h3>
+                    <p>Yes, we do offer discounts. Just make sure you call us before showing up at the restaurant.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- Social -->
+    <div class="social-pages blue-image-bg section-item">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center" style="margin-bottom: 45px;">Social media</h2>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="social-page">
+                        <img src="./images/facebook-logo.png" />
+
+                        <h3>Facebook</h3>
+                        <p>Check our Facebook page for the latest information, offers and news. Don't be afraid to send us a note.</p>
+                    </div>
+                </div>
+
+
+
+                <div class="col-12 col-md-4">
+                    <div class="social-page">
+                        <img src="./images/twitter-logo.png" />
+
+                        <h3>Twitter</h3>
+                        <p>Send us a tweet to win a free t-shirt, or a 10% discount at any of our locations throughout the USA.</p>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-4">
+                    <div class="social-page">
+                        <img src="./images/instagram-logo.png" />
+
+                        <h3>Instagram</h3>
+                        <p>Take a photo while visiting our restaurants and post it on Instagram. People will love it.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
 
     <!-- Footer -->
+    <footer>
+        <div class="website-info">
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-7">
+                        <h3>About us</h3>
+
+                        <p>We offer foods and drinks of exceptional quality, at an affordable price. Make sure you visit us while hungry or thirsty.</p>
+                        <p>We're open every day from 9am to 11pm. Orders and reservations at +123&nbsp;456&nbsp;789.</p>
+                    </div>
+
+
+                    <div class="col-md-4 offset-md-1">
+                        <h3>Links</h3>
+
+                        <ul>
+                            <li><a href="https://facebook.com">Facebook page</a></li>
+                            <li><a href="https://twitter.com">Twitter profile</a></li>
+                            <li><a href="https://instagram.com">Instagram photos</a></li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <p class="copyright">Copyright &copy; Awesome Business Ltd. 2018<br />
+            Icons by <a style="color: lightblue;" href="https://flaticon.com">flaticon.com</a>
+        </p>
+    </footer>
 
 
     <!-- JavaScript -->

@@ -130,6 +130,7 @@ div.blue-image-bg {
             ),
 
             url(../images/main-photo.jpg);
+    background-size: cover;
 
 
     color: white !important;

@@ -141,3 +141,7 @@ div.section-item {
     padding-top: 90px;
     padding-bottom: 90px;
 }
+
+[data-aos] {
+    overflow-x: hidden;
+}

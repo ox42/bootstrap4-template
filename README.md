@@ -9,7 +9,7 @@ Apart from the index.html file where the content is located, you have separate f
 images and icons.
 
 ## Based on Bootstrap 4
-Bootstrap 4 let's us build responsive, cool, mobile-first projects on the web.
+Bootstrap 4 let's us build responsive, cool, mobile-first projects on the web. This project was updated to use the latest version of Bootstrap in 2019.
 
 Bootstrap is an open source toolkit (framework) for developing with HTML, CSS, and JavaScript. With Bootstrap, we can easily and quickly prototype ideas or build apps featuring various components, a responsive grid system, plugins, and a lot more.
 

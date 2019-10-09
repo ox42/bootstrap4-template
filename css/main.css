@@ -1,11 +1,9 @@
 .main-photo {
     background:
             linear-gradient(
-                    rgba(0, 0, 0, 0.35),
-                    rgba(100, 0, 0, 0.35)
-            ),
-
-            url(../images/main-photo.jpg);
+                    rgba(0, 0, 0, 0.75),
+                    rgba(10, 10, 30, 0.45)
+            ), url(../images/main-photo.jpg);
 
     background-size: cover;
 
@@ -127,12 +125,9 @@ div.blue-image-bg {
             linear-gradient(
                     rgba(15, 20, 170, 0.75),
                     rgba(15, 20, 170, 0.75)
-            ),
+            ), url(../images/main-photo.jpg);
 
-            url(../images/main-photo.jpg);
     background-size: cover;
-
-
     color: white !important;
 }
 
